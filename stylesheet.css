@@ -1,0 +1,221 @@
+html, body{
+    width = 100%;
+}
+
+h1 {
+    font-family: CaviarDreams;
+    font-size: 5vw;
+    font-weight: normal;
+    margin: 0px;
+}
+
+h2 {
+    font-family: CaviarDreams;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    margin: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-family: CaviarDreams;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+#leftNav {
+    width: 25%;
+    padding-left: 10px;
+    text-align: center;
+    background-color: 
+}
+
+.whiteLink:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.whiteLink:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.whiteLink:hover{
+    text-decoration: underline;
+    color: black;
+}
+.whiteLink:active{
+    text-decoration: underline;
+    color: black;
+}
+
+.macallanTop10 {
+    padding-top: 3vh;
+}
+
+.tomTop10, .help, .about {
+    padding-top: 1vh;   
+}
+
+.about {
+	color: white;
+}
+
+.help {
+    padding-bottom: 3vh;
+}
+
+#mainContent {
+    width: 70%;
+    height: 100vh;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+#aboutContent {
+	display: none;
+	width: 70%;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.barImage {
+    src: "images/bar.png";
+}
+
+.arrangeLayout {
+    display: inline-block;
+}
+
+#navBox {
+    width: 100%;
+    margin-top: 4vh;
+    padding: 5px;
+    background-image: linear-gradient(-180deg, #C1DFFF 0%, #89C2FF 100%);
+    border: 1px solid #979797;
+    border-radius: 8px;
+}
+
+#searchButton{
+    background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
+    border: 1px solid #979797;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20), inset 0px 2px 0px 0px #FFFFFF;
+    border-radius: 6px;
+    width: 60%;
+    height: 50px;
+    font-size: 16px;
+    font-family: CaviarDreams;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+
+.smallTextBox {
+    width: 30%;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+    border-radius: 3px;
+    font-size: 22px;
+    font-family: CaviarDreams;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.largeTextBox {
+    width: 75%;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+    border-radius: 3px;
+    font-size: 22px;
+    font-family: CaviarDreams;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.barImage {
+    width: 100%;
+}
+
+/* Colors */
+.lightBlue {
+    background: #C8E5FF;
+}
+
+.darkBlue {
+    background: #91CCFF;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.tableContent, .tableHeader{
+    font-family: CaviarDreams;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.tableContent {
+	padding: 8px;
+}
+
+.tableRow{
+    font-family: CaviarDreams;
+    font-size: 1.5vw;
+	padding-bottom: 8px;
+}
+
+.tableRow:hover{
+	background-color: #f5f5f5;
+}
+
+td, th {
+	padding: 8px;
+	border-bottom: 1px black solid;
+}
+
+tr:nth-child(even){
+	background-color: #91CCFF;
+}
+
+.aboutStyle{
+    padding: 8px;
+    font-family: CaviarDreams;
+    font-size: 2.5vw;
+}
+
+#backButton{
+    display: inline-block;
+    background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
+    float: right;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active{
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent a:link, #mainContent a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent a:hover, #mainContent a:active{
+    text-decoration: underline;
+    color: #e71212;
+}
+
+.logoPadding{
+    padding-top: 13vw;
+}

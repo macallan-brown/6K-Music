@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>6K Music</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div id="leftNav" class="arrangeLayout">
+            <div id = "logo">
+                <a href = "index.py"><h1>6K Music</h1>
+                <h3>Critics' Top 6K Songs of All Time</h3></a>
+            </div>
+            <div id="navBox">
+                
+                <form action="index.py" method="get">
+                    <h2>Search Song or Artist<h2>
+                    <input class="largeTextBox" type="text" name="titleOrArtist" value="%s">
+                    <br>
+                    Range of Rankings:
+                    <br>
+                    <input class="smallTextBox" type="text" name="rankBegin" value="%s">
+                    to
+                    <input class="smallTextBox" type="text" name="rankEnd" value="%s">
+                    <br>
+                    
+                     Range of Years:
+                    <br>
+                    <input class="smallTextBox" type="text" name="yearBegin" value="%s">
+                    to
+                    <input class="smallTextBox" type="text" name="yearEnd" value="%s">
+
+                    <br>
+                    <input id="searchButton" type="submit" value="Search" >
+                </form>
+                <div class = "footers">
+                    <div class="macallanTop10">
+                        <a class= "whiteLink" href="index.py?macallanTop20=findMacallanTop20">Macallan's Top 20</a> 
+                    </div>
+                    <div class="tomTop10">
+                        <a class= "whiteLink" href="index.py?tomTop10=findTomTop10">Tom's Top 10</a>
+                    </div>
+                    <div class="about whiteLink">
+                        <a class= "whiteLink" href='About.html'>About</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div id="mainContent" class="arrangeLayout">
+            <img class="barImage" src="bar.png" alt="bar">
+            <div class="lightBlue heightFull">
+                <table class = "fullwidth">
+                    <tr class="border">
+                        <th class= "tableHeader">Rank</th>
+                        <th class= "tableHeader">Song</th>
+                        <th class= "tableHeader">Artist</th>
+                        <th class= "tableHeader">Year</th>
+                    <div class = "tableContent">
+                        %s
+                    </div>
+                </table>
+                
+            </div>
+        </div>
+        <!-- links go here -->
+        <br>
+        %s    
+        
+        
+   
+        
+    </body>
+</html>
